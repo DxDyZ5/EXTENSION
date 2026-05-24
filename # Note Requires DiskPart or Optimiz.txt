@@ -1,0 +1,7 @@
+# Note: Requires DiskPart or Optimize-VHD on Windows Pro/Enterprise
+diskpart
+select vdisk file="C:\Users\Admin\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc\LocalState\ext4.vhdx"
+attach vdisk readonly
+compact vdisk
+detach vdisk
+exit

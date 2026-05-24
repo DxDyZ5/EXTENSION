@@ -1,0 +1,16 @@
+Run extension:
+
+Go to about:debugging#/runtime/this-firefox 
+Load temporary Add-on...
+
+load manifest.json
+
+Go to your terminal in the app root and run python main.py
+
+Now test. 
+
+(anytime something is wrong you go back to about:debugging and reload extension or remove so it can be clean up)
+
+Must install: python 3.12.0  ffmpeg win as environment PATH
+
+Any error, reach ai not me! 
