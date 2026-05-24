@@ -31,7 +31,7 @@ app.add_middleware(
 
 shazam = Shazam()
 # Configuración para YouTube API - Reemplaza con tu API key
-YOUTUBE_API_KEY = os.getenv("SECRET_KEY")
+YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY", "YOUR_YOUTUBE_API_KEY")
 
 # GPU Configuration - Auto-detect and set device
 if torch.cuda.is_available():
